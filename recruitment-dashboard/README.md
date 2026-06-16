@@ -1,5 +1,5 @@
 # Recruitment Analytics Dashboard
-
+![Recruitment Dashboard](dashboard-overview.png)
 ## Business Problem
 
 Recruitment tracking was conducted manually using spreadsheets and WhatsApp communication, resulting in fragmented information, limited visibility, and time-consuming reporting processes.
