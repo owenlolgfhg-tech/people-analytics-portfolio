@@ -14,7 +14,10 @@ Data quality considerations:
   such as "CANCELADO", "PENDIENTE", and "NO FIRMÓ".
 - Additional exploratory analysis was performed to identify and
   appropriately handle these inconsistencies before calculating KPIs.
-*/SELECT
+*/
+
+
+SELECT
     RECLUTADOR,
 
     COUNTIF(ESTADO = 'FIRMADO') AS firmados,
