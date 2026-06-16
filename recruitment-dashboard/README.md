@@ -25,6 +25,26 @@ To design an interactive dashboard that centralizes recruitment data and provide
 - BigQuery
 - Looker Studio
 
+## Technical Implementation
+
+The dashboard was developed following an end-to-end analytical workflow:
+
+Google Sheets → BigQuery → Exploratory SQL Analysis → Analytical View Creation → Looker Studio Dashboard
+
+### Data Quality Challenges
+
+During exploratory analysis, it was identified that the `FECHA FIRMADO` field contained both date values and text labels such as:
+
+- CANCELADO
+- PENDIENTE
+- NO FIRMÓ
+
+Additional SQL logic was implemented to appropriately handle these inconsistencies before calculating recruitment KPIs.
+
+### SQL Components
+
+The project includes documented SQL queries used to generate recruiter-level metrics and support dashboard development.
+
 ## Business Impact
 
 - Reduced time spent preparing recruitment reports.
