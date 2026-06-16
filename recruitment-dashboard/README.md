@@ -9,7 +9,7 @@
 - Contracts Signed by Recruiter
 - Average Time to Signature by Recruiter
 - Recruiter Performance Comparison
-- 
+  
 ## Business Problem
 
 Recruitment tracking was conducted manually using spreadsheets and WhatsApp communication, resulting in fragmented information, limited visibility, and time-consuming reporting processes.
